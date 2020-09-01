@@ -11,8 +11,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         android:background="@android:color/transparent"
-        app:headerLayout="@layout/view_global_menu_header"
+
         app:itemIconTint="#8b8b8b"
         app:itemTextColor="#666666"
-        app:menu="@menu/drawer_menu"/>
+        app:menu="@menu/drawer_menu" />
 </RelativeLayout>

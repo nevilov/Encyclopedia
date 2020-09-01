@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Encyclopedia</string>
+    <string name="favorites_Item">Избранное</string>
+
+    <string name="space_Category">Космос</string>
+    <string name="space_planets">Планеты</string>
+    <string name="space_galaxy">Галактики</string>
+    <string name="space_stars">Звезды</string>
+
+    <string name="worldHistory_Category">История</string>
+    <string name="worldHistory_World">Мировая история</string>
+
+
+    <string name="quotes_Category">Цитаты</string>
+    <string name="quotes_GreatMen">Цитаты Великих Людей</string>
+
 </resources>

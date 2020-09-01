@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item android:title="@string/favorites_Item" android:id="@+id/menu_favorites"/>
+
+    <item android:title="@string/space_Category">
+        <menu>
+            <item android:title="@string/space_planets" android:id="@+id/menu_space_planets"/>
+            <item android:title="@string/space_galaxy" android:id="@+id/menu_space_galaxy"/>
+            <item android:title="@string/space_stars" android:id="@+id/menu_space_stars"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/worldHistory_Category">
+        <menu>
+            <item android:title="@string/worldHistory_World" android:id="@+id/menu_worldHistory_World"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/quotes_Category">
+        <menu>
+            <item android:title="@string/quotes_GreatMen" android:id="@+id/menu_quotes_GreatMen"/>
+        </menu>
+    </item>
+
+
+
+</menu>
