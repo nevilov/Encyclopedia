@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Encyclopedia</string>
+
+    <string name="font">menu_font.ttf</string>
     <string name="favorites_Item">Избранное</string>
 
     <string name="space_Category">Космос</string>
