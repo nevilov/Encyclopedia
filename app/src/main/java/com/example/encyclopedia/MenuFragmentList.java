@@ -25,6 +25,7 @@ import com.google.android.material.navigation.NavigationView;
 
 
 public class MenuFragmentList extends Fragment {
+    private NavItemSelectedListener navItemSelectedListener; //Connecting Interface
 
 
     @Override
@@ -42,7 +43,11 @@ public class MenuFragmentList extends Fragment {
         vNavigation.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                Toast.makeText(getActivity(), menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), menuItem.getTitle(), Toast.LENGTH_SHORT).show();
+                navItemSelectedListener.onNavigationItemSelected(menuItem);
+
+
+
                 return false;
             }
         });
@@ -76,5 +81,10 @@ public class MenuFragmentList extends Fragment {
             mNewTitle.setSpan(new CustomTypeFaceSpan("", font), 0, mNewTitle.length(), Spannable.SPAN_INCLUSIVE_INCLUSIVE);
             mi.setTitle(mNewTitle);
         }
+    }
+
+    public void setNavItemSelectedListener(NavItemSelectedListener navItemSelectedListener) {
+        this.navItemSelectedListener = navItemSelectedListener;
+
     }
 }
