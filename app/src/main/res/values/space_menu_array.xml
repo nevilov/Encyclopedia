@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="space_menu_planets">
+        <item>Земля</item>
+        <item>Меркурий</item>
+    </string-array>
+    <string-array name="space_menu_galaxy">
+        <item>Млечный путь</item>
+    </string-array>
+    <string-array name="space_menu_stars">
+        <item>Солнце</item>
+    </string-array>
+</resources>
